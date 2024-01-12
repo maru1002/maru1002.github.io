@@ -353,6 +353,11 @@ textarea {
   font-weight: 500;
   text-align: justify;
 }
+.footer-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer .footer-01 .footer-01-left {
   padding: 3rem 2rem;
   margin-top: -10rem;
@@ -382,5 +387,5 @@ textarea {
   padding-bottom: 50px;
 }
 .footer-01-left__img {
-  width: 30px;
+  width: 100px;
 }
