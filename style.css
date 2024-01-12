@@ -187,6 +187,7 @@ section {
 .works-content {
   width: 30%;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 .works-image img {
   width: 100%;
