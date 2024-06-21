@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+TC:wght@600&display=swap");
+@import url(desktop.css);
+@import url(mobile.css);
+
+@media (max-width: 768px) {
+  .header-nav-list {
+    flex-direction: column; /* 在小屏幕上将导航项纵向排列 */
+  }
+
+  .header-nav-item {
+    margin-right: 0; /* 在小屏幕上取消导航项之间的右边距 */
+    margin-bottom: 10px; /* 在小屏幕上添加导航项之间的下边距 */
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+}
+.index-aboutme-content img {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.form-input{
+  width: 100%;
+}

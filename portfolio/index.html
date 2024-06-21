@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maru_studio</title>
+    <link rel="icon" href="./img/maru.svg" type="image/x-icon" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--頁首開始-->
+    <header class="header" id="header">
+        <div class="header-contents">
+            <div class="header-nav-wrapper">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <h1 class="logo">
+                            <a href=""><img src="img/maru.svg" alt="Maru_studio" /></a>
+                        </h1>
+                    </li>
+                    <div class="menu">
+                        <li class="header-nav-item">
+                            <a class="current" href="#top"><span>トップ</span></a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a class="current" href="#about"><span>私について</span></a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a class="current" href="#works"><span>作品</span></a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a class="current" href="#contact"><span>お問い合わせ</span></a>
+                        </li>
+                    </div>
+                    <div class="header-nav-item">
+                        <div class="hamb__icon" id="hambIcon">
+                                <button class="menu-toggle">
+                            </button>
+                            <span class="hamb__icon-parts"></span>
+                                </button>
+                        </div>
+                    </div>
+                </ul>
+                </div>
+            </div>
+            
+    </header>
+
+    <!--主要頁面開始-->
+    <main id="main top" >
+        <div class="index-container">
+            <div class="index-content">
+                <!--滑頁開始-->
+                <div class="index-gallery">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="100">
+                                <img src="./img/slide1.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/slide2.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slide3.jpg" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+                    </div>
+                </div>
+                <!--關於我 About me 開始-->
+                <div id="about">
+                <div class="index-aboutme-box">
+                    <div class="index-aboutme">
+                        <div class="index-aboutme-head">
+                            <div class="title-box">
+                                <div class="common-sub-heading">私について</div>
+                            </div>
+                            <div class="head-box">
+                                <div class="box">
+                                    <div class="index-en-head text-animation show">
+                                        <span class="text-animation-span"><span style="animation-delay: 0s">ABOUT ME</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="index-aboutme-content">
+                            <img src="./img/bear.JPG" />
+                            <span class="aboutme-span">私はまると申します。標準文字デザインとグラフィックデザインを専門としています。ご協力やご依頼がありましたら、お問い合わせフォームかメールでお気軽にご連絡ください。よろしくお願いいたします！</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!--作品 works 開始-->
+          <div class="index-works-head" id="works">
+            <div class="title-box">
+              <div class="common-sub-heading">作品</div>
+            </div>
+            <div class="head-box">
+              <div class="box">
+                <div class="index-en-head text-animation show">
+                  <span class="text-animation-span"
+                    ><span style="animation-delay: 0s">WORKS</span></span>
+                        </div>
+                    </div>
+                </div>
+                <section>
+                    <div class="works-content works-content01">
+                        <div class="works-image">
+                            <img src="./img/logotype/work01.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                丸子仕事中...
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work01.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content02">
+                        <div class="works-image">
+                            <img src="./img/logotype/work02.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                古書堂事件手帖
+                            </div>
+                            <div class="date">2022.09.16</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work02.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content03">
+                        <div class="works-image">
+                            <img src="./img/logotype/work03.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                屍人莊殺人事件
+                            </div>
+                            <div class="date">2022.09.17</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work03.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content04">
+                        <div class="works-image">
+                            <img src="./img/logotype/work04.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                驀然回首
+                            </div>
+                            <div class="date">2022.09.19</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work04.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content05">
+                        <div class="works-image">
+                            <video autoplay loop muted>
+                                <source src="./img/logotype/work05.mp4" type="video/mp4">
+                            </video>
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                荒丘 NEODUNE
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <video autoplay loop muted>
+                                    <source src="./img/logotype/work05.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content06">
+                        <div class="works-image">
+                            <img src="./img/logotype/work06.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                粗點心戰爭
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work06.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content07">
+                        <div class="works-image">
+                            <img src="./img/logotype/work07.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                浮洲
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work07.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content08">
+                        <div class="works-image">
+                            <video autoplay loop muted>
+                                <source src="./img/logotype/work08.mp4" type="video/mp4">
+                            </video>
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                NMIXX
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <video autoplay loop muted>
+                                    <source src="./img/logotype/work08.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works-content works-content09">
+                        <div class="works-image">
+                            <img src="./img/logotype/work09.jpg" />
+                            <div class="works-title">
+                                フォントデザイン
+                            </div>
+                            <div class="works-intro">
+                                臺北
+                            </div>
+                            <div class="date">2022.09.14</div>
+                            <div class="popup">
+                                <img src="./img/logotype/work09.jpg" alt="Popup Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-btn">
+                        <button type="submit" name="submitConfirm" value="confirm" class="read-more contact-button">Read More</button>
+                    </div>
+                </section>
+                <!--聯絡我-->
+                <div class="index-contact" id="contact">
+                    <div class="index-contact-head">
+                        <div class="title-box">
+                            <div class="common-sub-heading">お問い合わせ</div>
+                        </div>
+                        <div class="head-box">
+                            <div class="box">
+                                <div class="index-en-head text-animation show">
+                                    <span class="text-animation-span"><span style="animation-delay: 0s">CONTACTS</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index-contact-content">
+                        <div class="community">
+                            <a href="https://www.instagram.com/wanmaru01/">Instagram</a>
+                            <a href="https://www.behance.net/a2f42f95">Behance</a>
+                            <div class="email-link"><a href="mailto:c0979515732@gmail.com">Email</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--表單開始-->
+                    <div class="form">
+                        <section class="grid-s">
+                            <div class="formArticle__leader">
+                                <a>フォームからお問い合わせ
+            </a>
+                                <p>
+                                    お問合せ内容によっては、ご返信に時間を要する場合や、お答えできない場合がございますので予めご了承ください。<br> また、お問合せ内容は可能な限り具体的にご記入くださいますよう、お願いいたします。
+                                </p>
+                                <p>「必須」の項目は必ずご記入ください。</p>
+                            </div>
+                            <form name="index">
+                                <input type="hidden" name="mode">
+                                <ul class="formList">
+                                    <li class="form-item">
+                                        <dt class="form-head"><span class="hissu">必須</span>お名前</dt>
+                                        <dd class="form-input">
+                                            <input type="text" name="your_name" id="your_name">
+                                        </dd>
+                                    </li>
+                                    <li class="form-item">
+                                        <dt class="form-head"><span class="hissu">必須</span>メール</dt>
+                                        <dd class="form-input">
+                                            <input type="email" name="email" id="mail">
+                                        </dd>
+                                    </li>
+                                    <li class="form-item">
+                                        <dt class="form-head"><span class="hissu">必須</span>電話番号</dt>
+                                        <dd class="form-input">
+                                            <input type="tel" name="tel" id="tel">
+                                        </dd>
+                                    </li>
+                                    <li class="form-item">
+                                        <p class="form-head"><span class="hissu">必須</span>お問い合わせ内容</p>
+                                        <dl>
+                                            <dd>
+                                                <textarea name="comment" cols="30" rows="5"></textarea>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                                <div class="form-btn-wrapper">
+                                    <div class="form-btn">
+                                        <button type="submit" name="submitConfirm" value="confirm" class="confirm contact-button">入力内容を確認する</button>
+                                    </div>
+                                    <div class="form-btn"></div>
+                                    <div class="form-btn"></div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer-01">
+                <div class="footer-01-left">
+                    <div class="footer-01-left__img">
+                        <img src="img/maru.svg"></img>
+                    </div>
+                </div>
+                <div class="footer-01-right">
+                    <div class="footer-01-right__link">
+                        <ul>
+                            <li class="footer-link">
+                                <a href="#top">トップ</a>
+                                <a href="#about">私について</a>
+                                <a href="#works">作品</a>
+                                <a href="#contact">お問い合わせ</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="https://www.instagram.com/wanmaru01/">Instagram</a>
+                                <a href="https://www.behance.net/a2f42f95">Behance</a>
+                                <a href="mailto:c0979515732@gmail.com">email</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-03">
+                <p class="copyright">Copyright © Maru studio All Rights Reserved</p>
+            </div>
+        </footer>
+    </main>
+    <!-- 在这里引用JavaScript文件 -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
